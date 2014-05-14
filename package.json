@@ -1,0 +1,26 @@
+{
+  "name": "rrcache",
+  "version": "0.1.0",
+  "description": "Random Replacement Cache with TTL and preload option. A simple and clean (< 100 lines of code) cache that just works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://angleman@github.com/angleman/rrcache.git"
+  },
+  "keywords": [
+    "rr",
+    "memcache",
+    "cache",
+    "ttl",
+    "ram"
+  ],
+  "author": "angleman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angleman/rrcache/issues"
+  },
+  "homepage": "https://github.com/angleman/rrcache"
+}
