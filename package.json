@@ -4,7 +4,7 @@
   "description": "Random Replacement Cache with TTL and preload option. A simple and clean (< 100 lines of code) cache that just works.",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "mocha -R list test/*.js"
   },
   "repository": {
     "type": "git",
