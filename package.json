@@ -1,6 +1,6 @@
 {
   "name": "rrcache",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Random Replacement Cache with TTL and preload option. A simple and clean (< 100 lines of code) cache that just works.",
   "main": "index.js",
   "scripts": {

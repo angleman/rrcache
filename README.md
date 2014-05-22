@@ -86,12 +86,27 @@ fs.writeFileSync('mycache.json', JSON.stringify(rrcache.values()))
 
 ### load(values)
 
-load the cache with a set of values
+manually load the cache with a set of values
 
 ```js
 fs = require('fs')
 rrcache.load(JSON.parse(fs.readFileSync('mycache.json')))
 ```
+
+loadFile()
+
+```js
+rrcache.loadFile('mycache.json')
+```
+
+saveFile()
+
+```js
+rrcache.saveFile('mycache.json')
+// or if previous loadFile
+rrcache.saveFile()
+```
+
 
 preload the cache with a set of values
 
@@ -99,6 +114,12 @@ preload the cache with a set of values
 fs              = require('fs')
 var initialData = JSON.parse(fs.readFileSync('mycache.json'))
 var rrcache     = require('rrcache')({ data: initialData }) // preload cache
+```
+
+reload the cache during init
+
+```js
+var rrcache = require('rrcache')({ file: 'mycache.json', max: 1000000})
 ```
 
 ### multiple cache instances
