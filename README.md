@@ -1,6 +1,6 @@
 # rrcache
 
-Random Replacement Cache with TTL and preload option. A simple and clean (< 100 lines of code) cache that just works.
+Random Replacement Cache with TTL and preload option. A simple and clean RR cache that just works.
 
 See [Cache Types](https://en.wikipedia.org/wiki/Cache_algorithms) for a comparison of different cache algorithms
 
